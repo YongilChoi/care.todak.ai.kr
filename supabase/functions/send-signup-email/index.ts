@@ -61,7 +61,8 @@ ${signupData.message ? `\n문의 내용:\n${signupData.message}` : ''}
 신청 시간: ${new Date().toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' })}
     `.trim();
 
-    const resendApiKey = 're_2sn5QCSm_6mLBAJixxW1F7N2Vfcoe3GHC';
+
+    const resendApiKey = '************************************';
     
     console.log('📧 Attempting to send email via Resend...');
     
